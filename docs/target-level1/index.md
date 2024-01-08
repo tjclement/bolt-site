@@ -12,4 +12,9 @@ The board has 4 challenges, each started by holding a button on the board. It's 
 
 Flags are in the format `ctf{...}`, with 34 uppercase alphanumeric characters where the `...` are. The flags are shown in plaintext when you obtain them, and always contain the `ctf{}` part too, so you never need to add that yourself.
 
+<div class="info">
+<h3>Note:</h3>
+The target's USB port exposes a single USB UART interface. You can connect to it at 115200 baud using your favourite terminal to see what it's outputting.
+</div>
+
 ![](/images/target_front.png)

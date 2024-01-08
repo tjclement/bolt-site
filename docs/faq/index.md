@@ -4,6 +4,10 @@ excerpt: FAQ
 layout: docs
 ---
 
+## Help, I bricked my target board!
+
+If you've been playing with RDP, chances are you've softbricked your Level 1 target board. Not to worry, you can use [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) along with your STM32 SWD debugger to reflash the [challenge firmware](https://github.com/tjclement/ecsc23-badge/blob/main/production_flashing/ECSC23.bin) on your board. Be sure to enable RDP again in the Option Bytes ("OB") panel, otherwise the challenges are no fun. Reversing the linked binary is cheating, btw. Don't cheat. Or do 🏴‍☠️.
+
 ## Can I power a target board using Bolt output pins?
 
 The output pins are protected by current-limiting resistors, to help keep your Bolt from releasing its magic smoke when the pins get accidentally shorted. This makes it hard to power devices from them directly.
