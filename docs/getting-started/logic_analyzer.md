@@ -7,7 +7,7 @@ weight: 10
 
 Your Bolt has an 8-channel logic analyzer with 100k pts sample memory. It's compatible with the popular open source PulseView software, and supports setting low/high level triggers.
 
-![A screenshot of PulseView being used with Curious Bolt](/images/pulseview.png)
+![A screenshot of PulseView being used with Curious Bolt](../../../images/pulseview.png)
 
 ## Connecting in PulseView
 - Install [Pulseview](https://sigrok.org/wiki/Downloads)

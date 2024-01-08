@@ -7,7 +7,7 @@ weight: 20
 
 Curious Bolt has a _crowbar_ voltage glitcher, a type of glitcher that can pull the voltage rails of a target chip to ground at very high resolution (as short as a few nanoseconds).
 
-![](../../images/scope.jpg)
+![](../../../images/scope.jpg)
 
 ## Connecting to your target
 

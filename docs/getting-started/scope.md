@@ -7,7 +7,7 @@ weight: 40
 
 Your Curious Bolt has a 35MSPS differential scope that can measure voltage changes of your target's power rails. It measures the AC component (changes in the DC voltage) of the power rails, and detects from -0.2V below your target's nominal voltage to +0.2V above it in steps of 0.2mV. It has 50k measurements sample memory.
 
-![](../../images/scope_data.png)
+![](../../../images/scope_data.png)
 
 ## Connecting to your target
 
