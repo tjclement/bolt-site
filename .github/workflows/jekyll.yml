@@ -48,7 +48,7 @@ jobs:
         env:
           JEKYLL_ENV: production
       - name: Add html-referenced images
-        run: cp -a images/* ${{ steps.pages.outputs.base_path }}/images
+        run: cp -a images/* ${{ steps.pages.outputs.base_path }}/_site/images
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
