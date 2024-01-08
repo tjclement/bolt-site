@@ -1,7 +1,6 @@
 root_docs_path: /docs
 sections:
   - getting-started
-  - app-development
-  - api-reference
+  - target-level1
   - faq
   - community

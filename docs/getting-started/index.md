@@ -1,26 +1,38 @@
 ---
 title: Getting Started
-excerpt: Getting started with Pixel Badge.
+excerpt: Getting started with Curious Bolt
 layout: docs
 ---
 
-## Powering
-You can power your badge via either USB C, or a ([flat-top](/docs/faq/#can-i-use-any-18650-li-ion-battery)) 18650 lithium-ion battery. Its USB does not require USB PD, and you can plug it into any USB 3.0 computer or (phone) charger. If you use a li-ion battery, the positive end should point towards the USB connector. The battery will charge when USB is connected.
+## Setting up your Bolt
+The Curious Bolt exposes a serial port over USB that can be used to interface with its glitcher, scope, and programmable I/O.
 
-<div class="note">
-<strong>Important:</strong>
-Please be very careful with lithium-ion batteries. The Pixel Badge contains protection circuitry against overcharging, excessive current draw, and undervoltage, but please don't put them to the test.
+A python library is available to talk to your Bolt. To use it:
 
-If you're not using your badge, always disconnect the battery. Don't have a battery in your badge if it's continuously on USB power.
+- Install _python_ (3.x) and _pip_
+- Install _pyserial_ by running `pip install pyserial`
+- Copy [scope.py](https://github.com/tjclement/bolt/blob/main/lib/scope.py) to your working directory
+- Check if you can connect by running `python3 -c "from scope import Scope;s=Scope()"`. If you get a warning that the Bolt could not be found, check its USB connection.
+- If you run Linux and can't connect, check [your udev rules](linux_udev).
+
+## Logic analysis in PulseView
+![A screenshot of PulseView being used with Curious Bolt](/images/pulseview.png)
+See [Logic Analyzer](logic_analyzer) to learn how to use the logic analyzer.
+
+## Fault injection with the voltage glitcher
+![](/images/scope.jpg)
+See [Voltage Glitching](voltage_glitching) for more information on voltage glitching with the Bolt.
+
+## Programmable I/O
+You can get the Bolt to send programmable output patterns on its output GPIO, based on triggers. See [Programmable I/O](programmable_io).
+
+## Differential power analysis with the oscilloscope
+![](/images/scope_data.png)
+See [Differential Power](scope) to learn how to use the differential power scope.
+
+<div class="info">
+<strong>Note:</strong>
+The scope of your Bolt is not necessary for any of the Level 1 challenges.
 </div>
 
-![Pixel Badge power inputs](/images/pixel_badge_back_power.png)
-
-***
-
-## First time boot
-When you power on your badge for the first time, you are greeted with a special boot animation. It's on the highest brightness at this point, so be ready..!
-
-***
-
-Learn more about your badge in these sections:
+Learn more about your Bolt in these sections:

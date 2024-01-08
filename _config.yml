@@ -1,11 +1,12 @@
-title: Pixel Badge ESP32 LED devboard
+title: Curious Bolt - Hardware Hacking Multi-tool
 url: https://pixel.curious.supplies
+source: .
 baseurl: /
 permalink: '/:title/'
 collections:
   posts:
     permalink: '/posts/:title/'
-description: The main site for Curious Supplies' Pixel Badge ESP32 WiFi-enabled LED devboard
+description: The main site for Curious Supplies' Bolt hardware security multi-tool
 palette: blue
 palettes:
   blue:
@@ -25,7 +26,7 @@ palettes:
       accent1: '#8e2de2'
       accent2: '#4a00e0'
 header:
-  title: Pixel Badge
+  title: Curious Bolt
 #  logo_img: images/logo.svg
   has_nav: true
   nav_links:
@@ -37,29 +38,6 @@ header:
       url: /docs
       style: link
       has_subnav: false
-    - label: Blog
-      url: /blog
-      style: link
-      has_subnav: false
-#    - label: Tutorials
-#      url: /tutorials
-#      style: link
-#      has_subnav: false
-#    - label: Sample Pages
-#      url: '#'
-#      style: link
-#      has_subnav: true
-#      subnav_links:
-#        - label: Overview
-#          url: /overview
-#          style: link
-#        - label: Showcase
-#          url: /showcase
-#          style: link
-#    - label: Style Guide
-#      url: /style-guide
-#      style: link
-#      has_subnav: false
     - label: Buy
       url: '/#buy'
       style: primary

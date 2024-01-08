@@ -1564,7 +1564,7 @@ img {
     padding: 0 2.5rem;
 }
 .nav-type-7 .nav-left .nav-logo {
-    height: 6rem;
+    height: 3rem;
     width: 6rem;
 }
 .nav-type-7 .nav-left .nav-logo-container {
@@ -1572,7 +1572,7 @@ img {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 6rem;
+    height: 3rem;
 }
 .nav-type-7 .nav-left .nav-logo-container .h6, .nav-type-7 .nav-left .nav-logo-container .list-nav-type-1 li a, .list-nav-type-1 li .nav-type-7 .nav-left .nav-logo-container a {
     margin-left: 1.5rem;
@@ -1586,7 +1586,7 @@ img {
     font-weight: 700;
 }
 .nav-type-7 .nav-right .hamburger-button {
-    height: 6rem;
+    height: 3rem;
     width: 6rem;
 }
 .nav-type-7 .main-nav-links {
@@ -1599,7 +1599,7 @@ img {
 .nav-type-7 .main-nav-links > li > a {
     display: block;
     line-height: 2rem;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
 }
 .nav-type-7 .main-nav-links > li > a:hover, .nav-type-7 .main-nav-links > li > a:focus {
     color: #EFEFEF;
@@ -1803,6 +1803,15 @@ img {
     left: 0;
     z-index: -1;
 }
+.hero-type-6 video {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 .hero-type-6 .container {
     position: relative;
 }
@@ -1811,7 +1820,7 @@ img {
     min-height: 80vh;
 }
 .hero-type-6 .title {
-    padding: 6rem 0 2.5rem 0;
+    padding: 0 0 2.5rem 0;
 }
 .hero-type-6 h1 {
     color: #18FF6D;

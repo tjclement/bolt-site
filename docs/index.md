@@ -1,17 +1,17 @@
 ---
 title: Welcome
 layout: docs
-image: images/pixel_badge_back.png
+image: images/bolt_front.png
 ---
 
-![](/images/pixel_badge_back.png)
+![](/images/bolt_front.png)
 
 ### About
 
-The Pixel Badge is a devboard with 256 beautiful full-colour LEDs, a WiFi-enabled ESP32 WROOM microcontroller, tactile switches, and USB-C connectivity. It runs MicroPython apps, and can be powered via USB or an 18650 lithium-ion battery.
+The Curious Bolt is a fun and approachable way of learning about low-level hardware security. It's a low-cost **voltage glitcher**, 8-channel **logic analyzer**, and differential power **scope**, all at once in the same device.
 
 ***
 
 ### Just let me play already!
 
-Absolutely! Head over to [Getting Started](/docs/getting-started) to learn how to use your Pixel, and get going right away.
+Absolutely! Head over to [Getting Started](/docs/getting-started) to learn how to use your Bolt, and get going right away.

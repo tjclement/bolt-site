@@ -1,8 +1,8 @@
 ---
-title: Enjoy your new Pixel Badge
+title: Enjoy your new Curious Bolt
 layout: page
 ---
-Congratulations on obtaining your Pixel Badge, and thank you so much for supporting our project. We hope you will love your Pixel as much as we do.
+Congratulations on obtaining your Curious Bolt, and thank you so much for supporting our project. We hope you will love your Bolt as much as we do.
 
 ***
 

@@ -1,36 +1,17 @@
 ---
 title: FAQ
-excerpt: >-
-  In this section you'll find commonly asked questions regarding the Libris
-  theme. If you have questions, don’t hesitate to ask us directly.
+excerpt: FAQ
 layout: docs
 ---
 
-## Do I need an 18650 li-ion battery to use the Pixel?
+## Can I power a target board using Bolt output pins?
 
-No, the Pixel is perfectly happy being powered only by its USB C port. You can insert a battery if you want to walk around with the Pixel. We find it's great fun to wear it at (virtual, during the pandemic) conferences.
+The output pins are protected by current-limiting resistors, to help keep your Bolt from releasing its magic smoke when the pins get accidentally shorted. This makes it hard to power devices from them directly.
 
-***
-
-## Can I use any 18650 li-ion battery?
-
-We know for sure that all flat-top 18650 cells work. We use 2600mAh ones, and they last many days with our intermittent use.
-
-Current draw at full brightness is expected to be between 1.5A and 2A at the cell.
-For optimal performance make sure your cell has a max continuous discharge rate of 5A or more.
-
-There are also 18650 cells with a built-in protection circuit. These are a bit taller than normal ones. The same goes for button-top cells. Some of these cells may fit as well, but we can't promise they will.
-
-One person has let us know that a cell with both a protection circuit _and_ a button-top (6mm taller than normal) does not fit.
-
-***
-
-## Can I make my own diffuser?
-
-Absolutely! You can print your own [using our design](https://www.thingiverse.com/thing:4689368), and there are a [few alternate designs and additional printable accessories](https://www.thingiverse.com/search?q=campzone+2019&type=things&sort=relevant) for the CampZone 2019 event badge that the Pixel was based on.
+Your safest option is to use the output pins to switch a MOSFET or relay that powers your target. If you really want to, and know for sure that the RP2040's max GPIO source current allows for it, you can also swap the 4 current-limiting resistors next to the output pins with 0-ohm ones. This allows maximum current through the output pins. Please be careful to not fry your Bolt!
 
 ***
 
 ## How can I get in touch with you?
 
-Check out [this page](/docs/community) to learn how to reach us!
+We'd love to hear from you! Check out [this page](/docs/community) to learn how to reach us.

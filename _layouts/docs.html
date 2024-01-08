@@ -9,7 +9,7 @@ layout: body
     <article class="post type-docs">
       <div class="post-inside">
         <header class="post-header">
-          <h1 class="post-title line-left">{{ page.title }}</h1>
+          <h1 class="post-title line-left">{{ page.excerpt }}</h1>
         </header><!-- .post-header -->
         <div class="post-content">
           {{ content }}
@@ -25,7 +25,9 @@ layout: body
             {% if has_children_is_not_empty %}
               <ul class="docs-section-items">
                 {% for child_page in child_pages %}
+                {% unless child_page.exclude %}
                 <li class="docs-section-item"><a href="{{ child_page.url | relative_url }}" class="docs-item-link">{{ child_page.title }}<span class="icon-angle-right" aria-hidden="true"></span></a></li>
+                {% endunless %}
                 {% endfor %}
               </ul><!-- .docs-section-pages -->
             {% endif %}
