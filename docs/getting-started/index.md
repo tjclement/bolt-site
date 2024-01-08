@@ -20,7 +20,7 @@ A python library is available to talk to your Bolt. To use it:
 See [Logic Analyzer](logic_analyzer) to learn how to use the logic analyzer.
 
 ## Fault injection with the voltage glitcher
-![](/images/scope.jpg)
+![](../../images/scope.jpg)
 See [Voltage Glitching](voltage_glitching) for more information on voltage glitching with the Bolt.
 
 ## Programmable I/O
