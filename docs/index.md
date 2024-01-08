@@ -4,7 +4,7 @@ layout: docs
 image: images/bolt_front.png
 ---
 
-![](/images/bolt_front.png)
+![](../images/bolt_front.png)
 
 ### About
 

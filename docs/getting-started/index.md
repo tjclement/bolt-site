@@ -16,7 +16,7 @@ A python library is available to talk to your Bolt. To use it:
 - If you run Linux and can't connect, check [your udev rules](linux_udev).
 
 ## Logic analysis in PulseView
-![A screenshot of PulseView being used with Curious Bolt](/images/pulseview.png)
+![A screenshot of PulseView being used with Curious Bolt](../../images/pulseview.png)
 See [Logic Analyzer](logic_analyzer) to learn how to use the logic analyzer.
 
 ## Fault injection with the voltage glitcher
@@ -27,7 +27,7 @@ See [Voltage Glitching](voltage_glitching) for more information on voltage glitc
 You can get the Bolt to send programmable output patterns on its output GPIO, based on triggers. See [Programmable I/O](programmable_io).
 
 ## Differential power analysis with the oscilloscope
-![](/images/scope_data.png)
+![](../../images/scope_data.png)
 See [Differential Power](scope) to learn how to use the differential power scope.
 
 <div class="info">
