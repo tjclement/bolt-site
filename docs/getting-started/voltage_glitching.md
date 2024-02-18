@@ -11,7 +11,7 @@ Curious Bolt has a _crowbar_ voltage glitcher, a type of glitcher that can pull 
 
 ## Connecting to your target
 
-- Connect at least one wire from ground on the Bolt to ground on the target (see [Pinout](pinout)).
+- Connect at least one wire from ground on the Bolt to ground on the target (see [Pinout](../pinout)).
 - Connect the glitcher _sig_ pin to the voltage rails you want to glitch on your target.
 
 General tip: voltage glitching is finicky and succeeds in very narrow bands. Improve your luck by getting as good a physical connection as you can. Shorter leads, better grounding, and better contact give better results.
