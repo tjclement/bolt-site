@@ -69,7 +69,7 @@ A good way to find the right glitch duration to corrupt your target is to start 
 </p>
 
 <p>
-Note: if corruption does occur, but the flag doesn't get printed, try stopping the glitch, power cycling the target board, run chall1, and start glitching again.
+Note: if corruption does occur, but the flag doesn't get printed, try stopping the glitch, power cycling the target board, run CHALL2, and start glitching again.
 </p>
 </span>
 </div>
