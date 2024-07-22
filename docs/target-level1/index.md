@@ -17,4 +17,14 @@ Flags are in the format `ctf{...}`, with 34 uppercase alphanumeric characters wh
 The target's USB port exposes a single USB UART interface. You can connect to it at 115200 baud using your favourite terminal to see what it's outputting.
 </div>
 
+<div class="note">
+<h3>Warning:</h3>
+The silkscreen text next to the 3-pin i2c header on revision 1 of the Target board has unfortunately been misprinted.
+  
+It should be, from top to bottom:
+- SCL
+- SDA
+- GND
+</div>
+
 ![](/images/target_front.png)
