@@ -56,7 +56,7 @@ A good way to find the right glitch duration to corrupt your target is to start 
 <h3>Hint 4</h3>
 <button id="show-btn4" onclick="document.getElementById('show-btn4').style.display='none';document.getElementById('hint4').style.display='block';">Show</button>
 <p id="hint4" style="display:none">
-If you see a reset on a certain glitch duration, and just decreasing the glitch duration by 1 doesn't reset anymore but also doesn't seem to corrupt the counters printed to the screen at all, try different glitch cables between the Bolt and target board. The DuPont cables of the ST-Link that came with your Bolt should work. Connect 2x GND and 1x SIG from the Bolt to VMCU on the target, using the 3 pin header on the target. If you're still having trouble with this challenge, please reach out on <a href="../community">our discord server</a> so we can help out.
+If you see a reset on a certain glitch duration, and just decreasing the glitch duration by 1 doesn't reset anymore but also doesn't seem to corrupt the counters printed to the screen at all, try different glitch cables between the Bolt and target board. The DuPont cables of the ST-Link that came with your Bolt should work. Connect 2x GND and 1x SIG from the Bolt to VMCU on the target, using the 3 pin header on the target. If you're still having trouble with this challenge, please reach out on <a href="../../community">our discord server</a> so we can help out.
 </p>
 </div>
 
